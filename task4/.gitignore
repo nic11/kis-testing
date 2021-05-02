@@ -3,3 +3,8 @@ build/
 3rdparty/
 bin/
 .idea/
+
+.vscode
+
+# KDE
+.directory
