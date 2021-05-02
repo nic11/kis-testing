@@ -15,7 +15,7 @@ class TreeTestCase : public ::testing::Test {
   }
 
   void TearDown() {
-    // boost::filesystem::remove_all(tmp_dir_path_);
+    boost::filesystem::remove_all(tmp_dir_path_);
   }
 
   void CreateSimpleStructure(

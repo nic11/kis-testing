@@ -141,19 +141,6 @@ testing::AssertionResult TreesEq(
 }
 
 TEST_F(TreeTestCase, OperatorEq) {
-  // boost::filesystem::create_directories(tmp_dir_path_ / "a" / "root");
-  // boost::filesystem::create_directories(tmp_dir_path_ / "b" / "root");
-  // CreateSimpleStructure(tmp_dir_path_ / "a" / "root");
-  // CreateSimpleStructure(tmp_dir_path_ / "b" / "root");
-
-  // const auto tree_a = GetTree((tmp_dir_path_ / "a" / "root").string(), false);
-  // const auto tree_b = GetTree((tmp_dir_path_ / "b" / "root").string(), false);
-
-  // ASSERT_TRUE(tree_a == tree_b)
-  //   << "tree_a:\n" << ToString(tree_a)
-  //   << "tree_b:\n" << ToString(tree_b);
-  // // boost::filesystem::copy_directory
-
   FileNode a{
     "hello", // name
     true,    // is_dir
