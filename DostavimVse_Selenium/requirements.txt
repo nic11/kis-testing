@@ -5,6 +5,7 @@ filelock==3.0.12
 geckodriver-autoinstaller==0.1.0
 idna==2.10
 iniconfig==1.1.1
+mariadb==1.0.6
 noraise==0.0.16
 packaging==20.9
 pluggy==0.13.1

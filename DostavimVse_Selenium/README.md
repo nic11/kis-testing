@@ -5,6 +5,6 @@ How to run:
   * Run DB preparation: https://github.com/akhtyamovpavel/DostavimVse/blob/master/src/main/java/Main.java
   * Run DostavimVse server: https://github.com/akhtyamovpavel/DostavimVse/blob/master/src/main/java/ru/fivt/dostavimvse/DostavimvseApplication.java
 * Prepare and run tests:
+  * `apt install libmariadb-dev firefox-geckodriver`
   * `pip install -r requirements.txt`
-  * `apt install firefox-geckodriver`
   * `pytest dostavimvse_tests.py`
